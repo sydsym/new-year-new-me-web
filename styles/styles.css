@@ -13,6 +13,13 @@
     padding: 15px 20px;
 }
 
+.primary-title{
+    color: #151414;
+}
+
+.primary-text{
+    color:#444343
+}
 /* header */
 .header{
     background-image: url("../images/banner/banner2.png");
@@ -36,13 +43,44 @@
 }
 
 .banner-title {
-    color: #151414;
     margin-bottom: 20px;
 }
 
 .banner-text{
-    color: #444343;
     margin-bottom: 20px;
     width: 70%;
     margin-left: auto;
+}
+
+/* main section */
+
+.failure-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.failure-img{
+    width: 100%;
+}
+
+.failure-heading{
+    margin-bottom: 20px;
+}
+
+.failure-description{
+    margin-bottom: 10px;
+}
+
+.failure-text{
+    padding: 0 50px 0 20px;
+}
+
+.failure-list{
+    list-style: none;
+    line-height: 25px;
+}
+.failure-list i{
+    color: #16D887;
 }
